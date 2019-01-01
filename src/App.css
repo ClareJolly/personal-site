@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=BioRhyme|Saira|Space+Mono');
+
 .App {
   text-align: center;
+	/* font-family: 'BioRhyme', serif; */
+font-family: 'Space Mono', monospace;
+/* font-family: 'Saira', sans-serif; */
 }
 
 .App-logo {
