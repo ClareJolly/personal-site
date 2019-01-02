@@ -14,6 +14,7 @@ class Header extends Component {
 						<li><Link to="/">Home</Link></li>
 						<li><Link to="/about">About</Link></li>
 						<li><Link to="/goals">Goals</Link></li>
+            <li><Link to="/tech">Tech</Link></li>
 					</ul>
 				</div>
 				{/*<Link to="/"><button className="button header-btn">Home</button></Link>
