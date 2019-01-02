@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom'
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 import './index.css';
 import './containers/App.css'
 import Header from './components/Header';
@@ -13,7 +13,7 @@ import Notfound from './containers/notfound'
 const routing = (
   <Router>
     <div>
-		<Header />		 
+		<Header />
 		<Switch>
       <Route exact path="/" component={App} />
       <Route path="/about" component={About} />

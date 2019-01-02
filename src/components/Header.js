@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
-import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import '../containers/App.css';
 
 class Header extends Component {
@@ -10,7 +10,7 @@ class Header extends Component {
 
 				<div className="navbar">
 					<ul>
-						<li><img src="/CJ-logo.png" width="55px"/></li>
+						<li><img src="/CJ-logo.png" width="55px" alt="logo"/></li>
 						<li><Link to="/">Home</Link></li>
 						<li><Link to="/about">About</Link></li>
 						<li><Link to="/goals">Goals</Link></li>
