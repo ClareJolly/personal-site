@@ -5,6 +5,7 @@ import './index.css';
 import './containers/App.css'
 import Header from './components/Header';
 import App from './containers/App';
+import Home from './containers/Home';
 import About from './containers/About';
 import Goals from './containers/Goals';
 import Tech from './containers/Tech';
@@ -16,7 +17,8 @@ const routing = (
     <div>
 		<Header />
 		<Switch>
-      <Route exact path="/" component={App} />
+      <Route exact path="" component={Home} />
+      <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
       <Route path="/goals" component={Goals} />
       <Route path="/tech" component={Tech} />
